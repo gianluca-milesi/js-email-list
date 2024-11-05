@@ -12,13 +12,18 @@
 
 <body>
 
-    <main>
-        <div class="container d-flex justify-content-center align-items-center">
-            <ul id="email-list">
-            </ul>
+    <main class="d-flex align-items-center">
+        <div class="container p-4">
+            <div class="row">
+                <h1 class="text-center">Genera e-mail</h1>
+                <ul id="email-list" class="text-center fs-5 mt-3 mb-3">
+                </ul>
+                <div class="generator d-flex justify-content-center">
+                    <button id="generate-btn" class="btn btn-primary fs-5">Genera</button>
+                </div>
+            </div>
         </div>
     </main>
-
 
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -26,6 +31,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>
